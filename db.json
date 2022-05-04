@@ -1,0 +1,28 @@
+{
+  "transactions": [
+    {
+      "id": 42927,
+      "concept": "Salary",
+      "amount": 2600,
+      "date": "2022-05-04"
+    },
+    {
+      "id": 36706,
+      "concept": "Bills",
+      "amount": -750,
+      "date": "2022-05-04"
+    },
+    {
+      "id": 74681,
+      "concept": "Food",
+      "amount": -325,
+      "date": "2022-05-04"
+    },
+    {
+      "id": 13464,
+      "concept": "Extras",
+      "amount": 175,
+      "date": "2022-05-04"
+    }
+  ]
+}

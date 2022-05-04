@@ -1,0 +1,5 @@
+<form class="d-flex gap-2 mb-3">
+    <input [(ngModel)]="concept" name="concept" type="text" class="form-control" placeholder="Concept" autocomplete="off" required="">
+    <input [(ngModel)]="amount" name="amount" type="number" class="form-control" placeholder="Amount" style="max-width: 10em;" required="">
+    <button (click)="createTransaction($event)" type="submit" class="btn btn-primary">Create</button>
+</form>

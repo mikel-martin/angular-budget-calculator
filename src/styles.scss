@@ -1,0 +1,35 @@
+.amount {
+
+    padding: 0.1em 0.5em;
+    border-radius: 0.1em;
+
+    display: block;
+
+    &.positive {
+        color: #0f5132;
+        background-color: #d1e7dd;
+        border-color: #badbcc;
+    }
+    
+    &.negative {
+        color: #842029;
+        background-color: #f8d7da;
+        border-color: #f5c2c7;
+    }
+
+}
+
+.text-primary {
+    color: #FF784F !important;
+}
+
+.btn.btn-primary {
+    border-color: #FF784F !important;
+    background-color: #FF784F !important;
+    transition: background-color 0.15s;
+}
+
+.btn.btn-primary:hover {
+    border-color: #e06b48 !important;
+    background-color: #e06b48 !important;
+}

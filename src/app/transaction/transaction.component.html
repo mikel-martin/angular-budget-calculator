@@ -1,0 +1,15 @@
+<div class="d-flex justify-content-between align-items-center gap-5 border rounded shadow-sm p-2 ps-0">
+    <div class="d-flex gap-2 align-items-center">
+        <button (click)="removeTransaction()" class="btn btn-del">
+            <img src="/assets/delete.svg" alt="Delete icon" />
+        </button>
+        <div>
+            <span class="text-primary fw-bold">{{ transaction?.concept }}</span>
+            <span class="text-muted date">{{ transaction?.date }}</span>
+        </div>
+    </div>
+    <div>
+        <span *ngIf="transaction!.amount >= 0" class="amount positive">{{ transaction?.amount | number:'.2'}}€</span>
+        <span *ngIf="transaction!.amount < 0" class="amount negative">{{ transaction?.amount | number:'.2'}}€</span>
+    </div>
+</div>
